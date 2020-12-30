@@ -16,6 +16,7 @@
 - [About](#about)
 - [Getting Started](#getting_started)
 - [Built Using](#built_using)
+- [Screenshots](#screenshots)
 - [Authors](#authors)
 
 ## 🧐 About <a name = "about"></a>
@@ -49,6 +50,12 @@ npm run electron-dev
 - [Electron](https://www.electronjs.org/) - Application Framework
 - [NodeJs](https://nodejs.org/en/) - Build Environment
 - [JavaScript](https://www.javascript.com/) - Application Language
+
+
+## 🖥️ Screenshots <a name="screenshots"></a>
+![dashboard](./docs/images/dashboard.png)
+![settings](./docs/images/settings.png)
+
 
 ## ✍️ Authors <a name = "authors"></a>
 
