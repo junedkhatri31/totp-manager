@@ -45,6 +45,7 @@ npm run electron-dev
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
+- [totp-generator](https://github.com/bellstrand/totp-generator) - OTP generator
 - [React](http://reactjs.org/) - Client UI Framework
 - [Material UI](https://material-ui.com/) - React UI Framework
 - [Electron](https://www.electronjs.org/) - Application Framework
