@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html,
+body {
+  height: 100%;
+  user-select: none;
+}
+
+.MuiTypography-root {
+  font-weight: 600;
+}

@@ -1,21 +1,32 @@
 {
-  "name": "totp-electron",
+  "name": "totp-manager",
+  "productName": "TOTP manager",
   "version": "0.1.0",
   "private": true,
+  "main": "electron-starter.js",
+  "homepage": "./",
   "dependencies": {
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.11.2",
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.6.0",
+    "electron-store": "^6.0.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
+    "totp-generator": "0.0.8",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "BROWSER=none react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "electron": "electron .",
+    "electron-dev": "DEVELOPMENT=1 electron .",
+    "electron-build": "cp electron-starter.js build/electron.js",
+    "package": "electron-builder build --mac --publish never"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +45,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "electron": "^11.1.1",
+    "electron-builder": "^22.9.1"
   }
 }
