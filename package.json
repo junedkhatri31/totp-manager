@@ -26,7 +26,7 @@
     "electron": "electron .",
     "electron-dev": "DEVELOPMENT=1 electron .",
     "electron-build": "cp electron-starter.js build/electron.js",
-    "package": "electron-builder build --mac --publish never"
+    "package": "electron-builder build --mac --win --linux --publish never"
   },
   "eslintConfig": {
     "extends": [
