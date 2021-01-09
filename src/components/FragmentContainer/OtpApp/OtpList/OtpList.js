@@ -63,50 +63,6 @@ function OtpList(props) {
                         </div>
                     )
                 })}
-                {/* <ListItem classes={{
-                    root: classes.listItemRoot
-                }}>
-                    <Container>
-                        <Grid
-                            container
-                            direction="row"
-                            justify="space-between"
-                            alignItems="center">
-                            <Typography className={classes.totpTitle}>Test 1</Typography>
-                            <Typography className={classes.totpNumber}>123 456</Typography>
-                        </Grid>
-                    </Container>
-                </ListItem>
-                <Divider />
-                <ListItem classes={{
-                    root: classes.listItemRoot
-                }}>
-                    <Container>
-                        <Grid
-                            container
-                            direction="row"
-                            justify="space-between"
-                            alignItems="center">
-                            <Typography className={classes.totpTitle}>Test 1</Typography>
-                            <Typography className={classes.totpNumber}>123 456</Typography>
-                        </Grid>
-                    </Container>
-                </ListItem>
-                <Divider />
-                <ListItem classes={{
-                    root: classes.listItemRoot
-                }}>
-                    <Container>
-                        <Grid
-                            container
-                            direction="row"
-                            justify="space-between"
-                            alignItems="center">
-                            <Typography className={classes.totpTitle}>Test 1</Typography>
-                            <Typography className={classes.totpNumber}>123 456</Typography>
-                        </Grid>
-                    </Container>
-                </ListItem> */}
             </List>
         </div>
     );
