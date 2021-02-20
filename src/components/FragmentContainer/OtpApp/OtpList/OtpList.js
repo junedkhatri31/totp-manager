@@ -9,7 +9,7 @@ const useStyles = makeStyles((theme) => ({
         background: '#fff',
         borderRadius: '10px',
         marginTop: '16px',
-        overflow: 'scroll'
+        overflow: 'auto'
     },
     listRootPadding: {
         padding: 0

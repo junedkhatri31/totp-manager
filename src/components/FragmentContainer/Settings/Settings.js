@@ -11,7 +11,7 @@ const useStyles = makeStyles((theme) => ({
         background: '#fff',
         borderRadius: '10px',
         marginTop: '16px',
-        overflow: 'scroll',
+        overflow: 'auto',
         padding: theme.spacing(2)
     },
     settingsTitle: {
