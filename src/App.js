@@ -7,6 +7,7 @@ import React, { useState } from 'react';
 import FragmentContainer from './components/FragmentContainer/FragmentContainer';
 import ConfigManager from './utils/ConfigManager';
 import Welcome from './components/Welcome/Welcome';
+import AppSnakebar from './components/AppSnakebar/AppSnakebar';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -60,6 +61,7 @@ function App() {
                         <Welcome onSuccess={onSuccessfulFileSelection}></Welcome>
                     )
                 }
+                <AppSnakebar/>
             </div>
         </ThemeProvider>
     );

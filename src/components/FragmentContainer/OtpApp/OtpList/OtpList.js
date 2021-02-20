@@ -1,11 +1,8 @@
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
-import Grid from '@material-ui/core/Grid';
-import Typography from '@material-ui/core/Typography';
-import Container from '@material-ui/core/Container';
 import { makeStyles } from '@material-ui/core/styles';
 import { Divider } from '@material-ui/core';
-import { generateTOTP } from '../../../../utils/totp';
+import OtpListItem from './OtpListItem/OtpListitem';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -48,16 +45,7 @@ function OtpList(props) {
                             <ListItem classes={{
                                 root: classes.listItemRoot
                             }}>
-                                <Container>
-                                    <Grid
-                                        container
-                                        direction="row"
-                                        justify="space-between"
-                                        alignItems="center">
-                                        <Typography className={classes.totpTitle}>{otpItem.title}</Typography>
-                                        <Typography className={classes.totpNumber}>{generateTOTP(otpItem.secret)}</Typography>
-                                    </Grid>
-                                </Container>
+                                <OtpListItem otpItem={otpItem} />
                             </ListItem>
                             {divider}
                         </div>
